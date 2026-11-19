@@ -218,3 +218,57 @@ header nav a:hover {
         gap: 24px;
     }
 }
+
+.stories {
+    padding: 40px 0;
+}
+
+.stories h2 {
+    margin: 0 0 30px;
+    color: #5A67D8;
+    font-size: 24px;
+}
+
+.stories article {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    margin-bottom: 35px;
+}
+
+.stories article > img {
+    width: 180px;
+    height: 180px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.stories .article-body {
+    flex: 1;
+}
+
+.stories h3 {
+    margin: 0 0 12px;
+    font-size: 18px;
+}
+
+.stories p {
+    margin: 0 0 16px;
+}
+
+.stories a {
+    color: #5A67D8;
+    text-decoration: none;
+}
+
+.stories a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 700px) {
+    .stories article {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
